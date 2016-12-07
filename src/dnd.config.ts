@@ -16,7 +16,7 @@ export class DataTransferEffect {
     constructor(public name: string) { }
 }
 
-@Injectable()
+// @Injectable()
 export class DragImage {
     constructor(
         public imageElement: string | HTMLElement,

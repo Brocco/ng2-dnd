@@ -5,18 +5,18 @@
 import { NgModule, ModuleWithProviders } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
-import {DragDropConfig} from './src/dnd.config';
-import {DragDropService, DragDropSortableService} from './src/dnd.service';
-import {DraggableComponent} from './src/draggable.component';
-import {DroppableComponent} from './src/droppable.component';
-import {SortableContainer, SortableComponent} from './src/sortable.component';
+import {DragDropConfig} from './dnd.config';
+import {DragDropService, DragDropSortableService} from './dnd.service';
+import {DraggableComponent} from './draggable.component';
+import {DroppableComponent} from './droppable.component';
+import {SortableContainer, SortableComponent} from './sortable.component';
 
-export * from './src/abstract.component';
-export * from './src/dnd.config';
-export * from './src/dnd.service';
-export * from './src/draggable.component';
-export * from './src/droppable.component';
-export * from './src/sortable.component';
+export * from './abstract.component';
+export * from './dnd.config';
+export * from './dnd.service';
+export * from './draggable.component';
+export * from './droppable.component';
+export * from './sortable.component';
 
 export const DND_PROVIDERS: any[] = [DragDropConfig, DragDropService, DragDropSortableService];
 export const DND_DIRECTIVES: any[] = [DraggableComponent, DroppableComponent, SortableContainer, SortableComponent];

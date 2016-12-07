@@ -1,0 +1,272 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "stripInternal": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "inlineSources": true,
+    "skipLibCheck": true
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "genDir": "./dist/waste"
+  }
+}
+
+
+
+// {
+//   "compilerOptions": {
+//     "target": "es2015",
+//     "module": "es2015",
+//     "moduleResolution": "node",
+//     "declaration": false,
+//     "removeComments": true,
+//     "noLib": false,
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "lib": ["es6", "es2015", "dom"],
+//     "sourceMap": true,
+//     "pretty": true,
+//     "allowUnreachableCode": false,
+//     "allowUnusedLabels": false,
+//     "noImplicitAny": true,
+//     "noImplicitReturns": true,
+//     "noImplicitUseStrict": false,
+//     "noFallthroughCasesInSwitch": true,
+//     "outDir": "./dist",
+//     "typeRoots": [
+//       "./node_modules/@types",
+//       "./node_modules"
+//     ],
+//     "types": [
+//     ]
+//   },
+//   "files": [
+//     "src/index.ts"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "dist",
+//     "tests"
+//   ],
+//   "compileOnSave": false
+// }
+
+
+// {
+//   "compilerOptions": {
+//     "experimentalDecorators": true,
+//     "emitDecoratorMetadata": true,
+//     "module": "es2015",
+//     "target": "es5",
+//     "noImplicitAny": false,
+//     "outDir": "dist",
+//     "rootDir": "src",
+//     "sourceMap": true,
+//     "inlineSources": true,
+//     "declaration": true,
+//     "removeComments": true,
+//     // "lib": [
+//     //   "es2015",
+//     //   "dom"
+//     // ],
+//     "skipLibCheck": true,
+//     "moduleResolution": "node"
+//   },
+//   "files": [
+//     "src/index.ts",
+//     "node_modules/zone.js/dist/zone.js.d.ts"
+//   ],
+//   "angularCompilerOptions": {
+//     "skipTemplateCodegen": true,
+//     "strictMetadataEmit": true
+//   }
+// }
+
+
+
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "commonjs",
+//     "moduleResolution": "node",
+//     "declaration": true,
+//     "noEmitHelpers": false,
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "sourceMap": true,
+//     "pretty": true,
+//     "allowUnreachableCode": true,
+//     "allowUnusedLabels": true,
+//     "noImplicitAny": false,
+//     "noImplicitReturns": false,
+//     "noImplicitUseStrict": false,
+//     "noFallthroughCasesInSwitch": false,
+//     "allowSyntheticDefaultImports": true,
+//     "suppressExcessPropertyErrors": true,
+//     "suppressImplicitAnyIndexErrors": true,
+//     "outDir": "release",
+//     "declarationDir": "release"
+//   },
+//   "files": [
+//     "src/index.ts"
+//   ],
+//   "exclude": [
+//     "node_modules"
+//   ],
+//   "compileOnSave": false,
+//   "buildOnSave": false,
+//   "awesomeTypescriptLoaderOptions": {
+//     "forkChecker": false
+//   },
+//   "angularCompilerOptions": {
+//     "genDir": "release/",
+//     "skipMetadataEmit": false
+//   }
+// }
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "es2015",
+//     "moduleResolution": "node",
+//     "declaration": true,
+//     "experimentalDecorators": true,
+//     "baseUrl": ".",
+//     "stripInternal": true,
+//     "outDir": "./dist",
+//     // "rootDir": "./src",
+//     "sourceMap": true,
+//     "inlineSources": true,
+//     "skipLibCheck": true
+//   },
+//   "files": [
+//     "src/index.ts"
+//   ],
+//   "angularCompilerOptions": {
+//     "strictMetadataEmit": true,
+//     "genDir": "./dist/waste"
+//   }
+// }
+
+
+
+// // {
+// //   "compilerOptions": {
+// //     "target": "es2015",
+// //     "module": "es2015",
+// //     "moduleResolution": "node",
+// //     "declaration": false,
+// //     "removeComments": true,
+// //     "noLib": false,
+// //     "emitDecoratorMetadata": true,
+// //     "experimentalDecorators": true,
+// //     "lib": ["es6", "es2015", "dom"],
+// //     "sourceMap": true,
+// //     "pretty": true,
+// //     "allowUnreachableCode": false,
+// //     "allowUnusedLabels": false,
+// //     "noImplicitAny": true,
+// //     "noImplicitReturns": true,
+// //     "noImplicitUseStrict": false,
+// //     "noFallthroughCasesInSwitch": true,
+// //     "outDir": "./dist",
+// //     "typeRoots": [
+// //       "./node_modules/@types",
+// //       "./node_modules"
+// //     ],
+// //     "types": [
+// //     ]
+// //   },
+// //   "files": [
+// //     "src/index.ts"
+// //   ],
+// //   "exclude": [
+// //     "node_modules",
+// //     "dist",
+// //     "tests"
+// //   ],
+// //   "compileOnSave": false
+// // }
+
+
+// // {
+// //   "compilerOptions": {
+// //     "experimentalDecorators": true,
+// //     "emitDecoratorMetadata": true,
+// //     "module": "es2015",
+// //     "target": "es5",
+// //     "noImplicitAny": false,
+// //     "outDir": "dist",
+// //     "rootDir": "src",
+// //     "sourceMap": true,
+// //     "inlineSources": true,
+// //     "declaration": true,
+// //     "removeComments": true,
+// //     // "lib": [
+// //     //   "es2015",
+// //     //   "dom"
+// //     // ],
+// //     "skipLibCheck": true,
+// //     "moduleResolution": "node"
+// //   },
+// //   "files": [
+// //     "src/index.ts",
+// //     "node_modules/zone.js/dist/zone.js.d.ts"
+// //   ],
+// //   "angularCompilerOptions": {
+// //     "skipTemplateCodegen": true,
+// //     "strictMetadataEmit": true
+// //   }
+// // }
+
+
+
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "commonjs",
+//     "moduleResolution": "node",
+//     "declaration": true,
+//     "noEmitHelpers": false,
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "sourceMap": true,
+//     "pretty": true,
+//     "allowUnreachableCode": true,
+//     "allowUnusedLabels": true,
+//     "noImplicitAny": false,
+//     "noImplicitReturns": false,
+//     "noImplicitUseStrict": false,
+//     "noFallthroughCasesInSwitch": false,
+//     "allowSyntheticDefaultImports": true,
+//     "suppressExcessPropertyErrors": true,
+//     "suppressImplicitAnyIndexErrors": true,
+//     "outDir": "release",
+//     "declarationDir": "release"
+//   },
+//   "files": [
+//     "src/index.ts"
+//   ],
+//   "exclude": [
+//     "node_modules"
+//   ],
+//   "compileOnSave": false,
+//   "buildOnSave": false,
+//   "awesomeTypescriptLoaderOptions": {
+//     "forkChecker": false
+//   },
+//   "angularCompilerOptions": {
+//     "genDir": "release/",
+//     "skipMetadataEmit": false
+//   }
+// }
