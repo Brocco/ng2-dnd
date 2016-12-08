@@ -6,7 +6,6 @@
     "test": "tsc && karma start",
     "test-watch": "tsc && karma start --no-single-run --auto-watch",
     "minify": "node node_modules/uglify-js/bin/uglifyjs bundles/ng2-dnd.js -o bundles/ng2-dnd.min.js --source-map bundles/ng2-dnd.min.js.map -c -m",
-    "prepublish": "tsc && node make.js && npm run minify",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "ngc": ""
   },
@@ -27,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/akserg/ng2-dnd/issues"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "homepage": "https://github.com/akserg/ng2-dnd#readme",
   "dependencies": {
     "core-js": "^2.4.1",
